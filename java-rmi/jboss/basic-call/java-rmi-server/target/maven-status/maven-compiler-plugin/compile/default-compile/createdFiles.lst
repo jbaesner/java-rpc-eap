@@ -1,0 +1,4 @@
+com/alizardo/RMIServer.class
+com/alizardo/RMIServerListener.class
+com/alizardo/RMIServerBinder.class
+com/alizardo/HelloRemote.class
