@@ -13,7 +13,7 @@ public class RMIClient {
     public static void main(String[] args) {
         try {
             Properties props = new Properties();
-            props.put(Context.INITIAL_CONTEXT_FACTORY, "org.jboss.naming.remote.client.InitialContextFactory");
+            props.put(Context.INITIAL_CONTEXT_FACTORY, "org.wildfly.naming.client.WildFlyInitialContextFactory");
             props.put(Context.PROVIDER_URL, "http-remoting://127.0.0.1:8080");
 
             Context context = new InitialContext(props);

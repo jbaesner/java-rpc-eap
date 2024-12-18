@@ -1,0 +1,7 @@
+<!DOCTYPE web-app PUBLIC
+        "-//JakartaEE//DTD Web Application 4.0//EN"
+        "https://jakarta.ee/xml/ns/jakartaee/web-app_4_0.dtd">
+
+<web-app version="4.0" xmlns="https://jakarta.ee/xml/ns/jakartaee">
+    <display-name>EJB Server</display-name>
+</web-app>

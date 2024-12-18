@@ -1,0 +1,6 @@
+/Users/alizardo/Documents/java-rpc-eap/ejb/webserver-ejb-call/src/main/java/com/alizardo/http/HelloServiceImpl.java
+/Users/alizardo/Documents/java-rpc-eap/ejb/webserver-ejb-call/src/main/java/com/alizardo/http/HelloServlet.java
+/Users/alizardo/Documents/java-rpc-eap/ejb/webserver-ejb-call/src/main/java/com/alizardo/remote/RemoteHelloServiceImpl.java
+/Users/alizardo/Documents/java-rpc-eap/ejb/webserver-ejb-call/src/main/java/com/alizardo/remote/RemoteHelloServlet.java
+/Users/alizardo/Documents/java-rpc-eap/ejb/webserver-ejb-call/src/main/java/com/alizardo/shared/HelloService.java
+/Users/alizardo/Documents/java-rpc-eap/ejb/webserver-ejb-call/src/main/java/com/alizardo/shared/RemoteHelloService.java

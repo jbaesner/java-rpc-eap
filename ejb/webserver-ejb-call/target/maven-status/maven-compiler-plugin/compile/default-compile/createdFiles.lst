@@ -1,0 +1,6 @@
+com/alizardo/http/HelloServlet.class
+com/alizardo/remote/RemoteHelloServlet.class
+com/alizardo/remote/RemoteHelloServiceImpl.class
+com/alizardo/shared/RemoteHelloService.class
+com/alizardo/shared/HelloService.class
+com/alizardo/http/HelloServiceImpl.class

@@ -6,7 +6,7 @@
   <groupId>com.alizardo</groupId>
   <artifactId>java-rmi-client</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
   <name>java-rmi-client</name>
   <url>http://www.andrelizardo.com</url>
@@ -50,7 +50,10 @@
 
   <build>
     <plugins>
-      
+      <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.4.0</version>
+      </plugin>
     </plugins>
   </build>
 </project>
