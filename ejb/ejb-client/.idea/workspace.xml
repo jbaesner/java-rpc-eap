@@ -5,104 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dd69cbe-a709-4f5b-817b-f29b048ec02a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ejb-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ejb-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejb-server/src/main/java/com/alizardo/remote/RemoteHelloServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejb-server/src/main/java/com/alizardo/remote/RemoteHelloBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejb-server/src/main/java/com/alizardo/remote/RemoteHelloService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejb-server/target/classes/com/alizardo/remote/RemoteHelloServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejb-server/target/classes/com/alizardo/remote/RemoteHelloService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejb-server/target/ejb-server.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejb-server/target/ejb-server/WEB-INF/classes/com/alizardo/remote/RemoteHelloServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejb-server/target/ejb-server/WEB-INF/classes/com/alizardo/remote/RemoteHelloService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejb-server/target/ejb-server/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejb-server/target/ejb-server/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejb-server/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejb-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejb-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejb-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejb-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/src/main/java/com/alizardo/http/HelloServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/src/main/java/com/alizardo/http/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/src/main/java/com/alizardo/remote/RemoteHelloServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/src/main/java/com/alizardo/remote/RemoteHelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/src/main/java/com/alizardo/shared/HelloService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/src/main/java/com/alizardo/shared/RemoteHelloService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/src/main/webapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/classes/com/alizardo/http/HelloServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/classes/com/alizardo/http/HelloServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/classes/com/alizardo/remote/RemoteHelloServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/classes/com/alizardo/remote/RemoteHelloServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/classes/com/alizardo/shared/HelloService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/classes/com/alizardo/shared/RemoteHelloService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/webserver-ejb-call.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/webserver-ejb-call/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/webserver-ejb-call/WEB-INF/classes/com/alizardo/http/HelloServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/webserver-ejb-call/WEB-INF/classes/com/alizardo/http/HelloServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/webserver-ejb-call/WEB-INF/classes/com/alizardo/remote/RemoteHelloServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/webserver-ejb-call/WEB-INF/classes/com/alizardo/remote/RemoteHelloServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/webserver-ejb-call/WEB-INF/classes/com/alizardo/shared/HelloService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/webserver-ejb-call/WEB-INF/classes/com/alizardo/shared/RemoteHelloService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webserver-ejb-call/target/webserver-ejb-call/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/.mvn/jvm.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/.mvn/maven.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/src/main/java/com/alizardo/RMIClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/src/main/java/com/alizardo/shared/HelloRemote.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/target/classes/com/alizardo/RMIClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/target/classes/com/alizardo/shared/HelloRemote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/target/java-rmi-client-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/target/java-rmi-client-1.0-SNAPSHOT/WEB-INF/classes/com/alizardo/RMIClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/target/java-rmi-client-1.0-SNAPSHOT/WEB-INF/classes/com/alizardo/shared/HelloRemote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/.mvn/jvm.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/.mvn/maven.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/src/main/java/com/alizardo/RMIServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/src/main/java/com/alizardo/RMIServerBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/src/main/java/com/alizardo/RMIServerListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/src/main/java/com/alizardo/shared/HelloRemote.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/target/classes/com/alizardo/HelloRemote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/target/classes/com/alizardo/RMIServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/target/classes/com/alizardo/RMIServerBinder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/target/classes/com/alizardo/RMIServerListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/target/java-rmi-server-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/target/java-rmi-server-1.0-SNAPSHOT/WEB-INF/classes/com/alizardo/HelloRemote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/target/java-rmi-server-1.0-SNAPSHOT/WEB-INF/classes/com/alizardo/RMIServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/target/java-rmi-server-1.0-SNAPSHOT/WEB-INF/classes/com/alizardo/RMIServerBinder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/target/java-rmi-server-1.0-SNAPSHOT/WEB-INF/classes/com/alizardo/RMIServerListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/target/java-rmi-server-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/basic-call/java-rmi-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-rmi/jboss/login-module/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejb-shared/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ejb-shared/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejb-shared/target/classes/com/alizardo/remote/RemoteHello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejb-shared/target/ejb-shared-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejb-shared/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejb-shared/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejb-shared/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejb-webserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ejb-webserver/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
