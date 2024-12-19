@@ -4,10 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.alizardo</groupId>
-    <artifactId>ejb-server</artifactId>
+    <artifactId>ejb-shared</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>ejb-server</name>
-    <packaging>war</packaging>
+    <name>ejb-shared</name>
     <url>https://www.andrelizardo.com</url>
 
     <properties>
@@ -30,11 +29,6 @@
     </dependencyManagement>
 
     <dependencies>
-        <dependency>
-            <groupId>com.alizardo</groupId>
-            <artifactId>ejb-shared</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
         <!-- Import the Common Annotations API (JSR-250), we use provided scope
             as the API is included in JBoss EAP -->
         <dependency>
@@ -50,31 +44,7 @@
             <version>3.2.6</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
 
-    <build>
-        <!-- Set the name of the WAR, used as the context root when the app is deployed. -->
-        <finalName>${project.artifactId}</finalName>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.wildfly.plugins</groupId>
-                    <artifactId>wildfly-maven-plugin</artifactId>
-                    <version>${version.plugin.wildfly}</version>
-                </plugin>
-                <plugin>
-                    <artifactId>maven-ejb-plugin</artifactId>
-                    <version>2.4</version>
-                    <configuration>
-                        <ejbVersion>3.2</ejbVersion>
-                    </configuration>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
+
 </project>

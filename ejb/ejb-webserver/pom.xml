@@ -4,15 +4,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.alizardo</groupId>
-    <artifactId>ejb-server</artifactId>
+    <artifactId>ejb-webserver</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>ejb-server</name>
     <packaging>war</packaging>
+    <name>ejb-webserver</name>
     <url>https://www.andrelizardo.com</url>
 
     <properties>
         <maven.compiler.release>17</maven.compiler.release>
-        <version.bom>7.4.0.GA</version.bom>
+        <version.bom>7.4.20.GA</version.bom>
         <version.org.junit.jupiter>5.9.1</version.org.junit.jupiter>
     </properties>
 
@@ -31,31 +31,35 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.jboss.eap</groupId>
+            <artifactId>wildfly-ejb-client-bom</artifactId>
+            <type>pom</type>
+            <scope>compile</scope>
+        </dependency>
+
+        <!-- Shared Interface for EJB -->
+        <dependency>
             <groupId>com.alizardo</groupId>
             <artifactId>ejb-shared</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-        <!-- Import the Common Annotations API (JSR-250), we use provided scope
-            as the API is included in JBoss EAP -->
+
+        <!-- Servlet API -->
         <dependency>
-            <groupId>jakarta.annotation</groupId>
-            <artifactId>jakarta.annotation-api</artifactId>
-            <version>1.3.5</version>
+            <groupId>org.jboss.spec.javax.servlet</groupId>
+            <artifactId>jboss-servlet-api_4.0_spec</artifactId>
             <scope>provided</scope>
         </dependency>
-        <!-- Import the EJB API, we use provided scope as the API is included in JBoss EAP -->
+
+        <!-- CDI API -->
         <dependency>
-            <groupId>jakarta.ejb</groupId>
-            <artifactId>jakarta.ejb-api</artifactId>
-            <version>3.2.6</version>
+            <groupId>jakarta.enterprise</groupId>
+            <artifactId>jakarta.enterprise.cdi-api</artifactId>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency>
+
     </dependencies>
+
 
     <build>
         <!-- Set the name of the WAR, used as the context root when the app is deployed. -->
@@ -66,13 +70,6 @@
                     <groupId>org.wildfly.plugins</groupId>
                     <artifactId>wildfly-maven-plugin</artifactId>
                     <version>${version.plugin.wildfly}</version>
-                </plugin>
-                <plugin>
-                    <artifactId>maven-ejb-plugin</artifactId>
-                    <version>2.4</version>
-                    <configuration>
-                        <ejbVersion>3.2</ejbVersion>
-                    </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
