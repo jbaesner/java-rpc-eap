@@ -37,9 +37,14 @@
         <button class="make-remote-request">make a remote request</button>
     </div>
 
+    <div>
+        <button class="make-remote-request-iiop">make a remote request using IIOP</button>
+    </div>
+
     <script type="text/javascript">
         const makeRequestButton = document.querySelector(".make-request");
         const makeRemoteRequestButton = document.querySelector(".make-remote-request");
+        const makeRemoteRequestIIOPButton = document.querySelector(".make-remote-request-iiop");
         function requestData(servlet) {
             var request;
             try {
@@ -67,6 +72,7 @@
 
         makeRequestButton.onclick = () => requestData("HelloServlet");
         makeRemoteRequestButton.onclick = () => requestData("RemoteHelloServlet");
+        makeRemoteRequestIIOPButton.onclick = () => requestData("RemoteHelloIIOPServlet");
     </script>
 </body>
 </html>

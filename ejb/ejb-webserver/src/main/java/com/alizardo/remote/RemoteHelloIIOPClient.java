@@ -5,17 +5,24 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import java.util.Properties;
 
-public class RemoteHelloClient implements RemoteHello {
+/**
+ * Remote Hello Client using IIOP
+ */
+public class RemoteHelloIIOPClient implements RemoteHello {
 
     public InitialContext createContext() throws NamingException {
         Properties props = new Properties();
-        props.put(Context.INITIAL_CONTEXT_FACTORY, "org.wildfly.naming.client.WildFlyInitialContextFactory");
-        props.put(Context.PROVIDER_URL, "remote+http://localhost:8080");
+        // use this for weblogic - weblogic
+        //props.put(Context.INITIAL_CONTEXT_FACTORY, "weblogic.jndi.WLInitialContextFactory");
+        // use this for weblogic - jboss
+        props.put(Context.INITIAL_CONTEXT_FACTORY, "com.sun.jndi.cosnaming.CNCtxFactory");
+        props.put(Context.PROVIDER_URL, "corbaloc::localhost:3528/JBoss/Naming/root");
         return new InitialContext(props);
     }
 
     public RemoteHello lookup(InitialContext context) throws NamingException {
-        final String rcal = "ejb:/ejb-server/RemoteHello!com.alizardo.remote.RemoteHello";
+        //final String rcal = "ejb:/ejb-server/RemoteHello!com.alizardo.remote.RemoteHello";
+        final String rcal = "RemoteHello";
         return (RemoteHello) context.lookup(rcal);
     }
 

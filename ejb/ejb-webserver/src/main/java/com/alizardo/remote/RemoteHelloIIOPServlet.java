@@ -8,16 +8,19 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.logging.Logger;
 
-@WebServlet(value = "/RemoteHelloServlet")
-public class RemoteHelloServlet extends HttpServlet {
-    private Logger logger = Logger.getLogger(RemoteHelloServlet.class.getName());
+/**
+ * Remote Hello Servlet using WebLogic T3
+ */
+@WebServlet(value = "/RemoteHelloIIOPServlet")
+public class RemoteHelloIIOPServlet extends HttpServlet {
+    private Logger logger = Logger.getLogger(RemoteHelloIIOPServlet.class.getName());
 
     @Inject
-    RemoteHelloClient service;
+    RemoteHelloIIOPClient service;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        logger.info("GET /RemoteHelloServlet");
+        logger.info("GET /RemoteHelloIIOPServlet");
         resp.getWriter().println(service.sayHello());
     }
 }
