@@ -3,30 +3,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.alizardo</groupId>
+    <parent>
+        <groupId>com.alizardo</groupId>
+        <artifactId>base</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    
     <artifactId>ejb-server</artifactId>
-    <version>1.0-SNAPSHOT</version>
     <name>ejb-server</name>
     <packaging>war</packaging>
     <url>https://www.andrelizardo.com</url>
 
     <properties>
-        <version.bom>7.4.0.GA</version.bom>
         <version.org.junit.jupiter>5.9.1</version.org.junit.jupiter>
     </properties>
-
-    <dependencyManagement>
-        <dependencies>
-            <!-- importing the ee-with-tools BOM adds specs and other useful artifacts as managed dependencies -->
-            <dependency>
-                <groupId>org.jboss.bom</groupId>
-                <artifactId>jboss-eap-jakartaee8-with-tools</artifactId>
-                <version>${version.bom}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <dependencies>
         <dependency>
