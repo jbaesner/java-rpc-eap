@@ -34,7 +34,17 @@
             <groupId>org.jboss.eap</groupId>
             <artifactId>wildfly-ejb-client-bom</artifactId>
             <type>pom</type>
-            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.eap</groupId>
+            <artifactId>wildfly-ejb-client-bom</artifactId>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.eap</groupId>
+            <artifactId>wildfly-jms-client-bom</artifactId>
+            <type>pom</type>
         </dependency>
 
         <!-- Shared Interface for EJB -->
